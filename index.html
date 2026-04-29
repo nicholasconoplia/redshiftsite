@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RedShift | Protect Your Eyes, Work Better</title>
-    <meta name="description" content="RedShift is an open-source tool for macOS and Windows that applies a deep red filter to your screen, blocking blue light and helping you work comfortably at night.">
+    <meta name="description"
+        content="RedShift is an open-source tool for macOS and Windows that applies a deep red filter to your screen, blocking blue light and helping you work comfortably at night.">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 
     <header class="hero">
         <div class="hero-content container">
             <h1>Better Screen, Better Sleep.</h1>
-            <p>I built RedShift because I like working with my screen red to block blue light at night. Existing tools didn't go far enough. This fixes that.</p>
+            <p>I built RedShift because I like working with my screen red to block blue light at night. Existing tools
+                didn't go far enough. This fixes that.</p>
             <div class="btn-group">
-                <a href="https://github.com/nicholasconoplia/RedShift/releases" class="btn btn-primary">Download for Mac</a>
-                <a href="https://github.com/nicholasconoplia/RedShift/releases" class="btn btn-secondary">Download for Windows</a>
+                <a href="https://github.com/nicholasconoplia/RedShift/releases/download/v1.0.0/RedShift-macos-arm64.zip" class="btn btn-primary">Download for Mac</a>
+                <a href="https://github.com/nicholasconoplia/RedShift/releases/download/v1.0.0/RedShift-windows-x64.zip" class="btn btn-secondary">Download for Windows</a>
             </div>
-            
+            <div style="margin-top: 1.5rem;">
+                <a href="https://github.com/nicholasconoplia/RedShift" style="color: var(--text-secondary); text-decoration: none; font-weight: 600; font-size: 0.9rem; border-bottom: 1px solid var(--glass-border); padding-bottom: 2px; transition: all 0.3s ease;" onmouseover="this.style.color='#fff'; this.style.borderColor='#fff'" onmouseout="this.style.color='var(--text-secondary)'; this.style.borderColor='var(--glass-border)'">
+                    View Open Source on GitHub →
+                </a>
+            </div>
+
 
         </div>
     </header>
@@ -28,29 +37,32 @@
             <h2>Why RedShift?</h2>
             <p style="color: var(--text-secondary);">Because f.lux and standard filters weren't enough.</p>
         </div>
-        
+
         <div class="feature-grid">
             <div class="feature-card">
                 <div class="feature-icon"></div>
                 <h3>True Red Filter</h3>
-                <p>Unlike standard night modes that only go orange, RedShift allows for a deep red spectrum that truly minimizes blue light exposure.</p>
+                <p>Unlike standard night modes that only go orange, RedShift allows for a deep red spectrum that truly
+                    minimizes blue light exposure.</p>
             </div>
             <div class="feature-card">
                 <div class="feature-icon"></div>
                 <h3>Multi-Monitor Support</h3>
-                <p>Works across all your screens on both Windows and macOS. No monitor left behind in the blue light zone.</p>
+                <p>Works across all your screens on both Windows and macOS. No monitor left behind in the blue light
+                    zone.</p>
             </div>
             <div class="feature-card">
                 <div class="feature-icon"></div>
                 <h3>Free & Open Source</h3>
-                <p>No subscriptions, no trackers. Just code that works. Built for the community, by a developer who needed it.</p>
+                <p>No subscriptions, no trackers. Just code that works. Built for the community, by a developer who
+                    needed it.</p>
             </div>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2026 RedShift by Nicholas Conoplia. Built for the night owls.</p>
+            <p>&copy; RedShift 2026.</p>
         </div>
     </footer>
 
@@ -74,4 +86,5 @@
         document.querySelectorAll('.feature-card').forEach(card => observer.observe(card));
     </script>
 </body>
+
 </html>
