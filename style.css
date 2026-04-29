@@ -108,6 +108,7 @@ nav {
     margin-bottom: 1rem;
     background: linear-gradient(to bottom, #fff, #ff7b7b);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -122,9 +123,11 @@ nav {
     display: flex;
     gap: 1rem;
     justify-content: center;
+    align-items: center;
 }
 
 .btn {
+    display: inline-block;
     padding: 1rem 2.5rem;
     border-radius: 50px;
     font-weight: 600;
